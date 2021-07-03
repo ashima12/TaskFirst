@@ -1,0 +1,68 @@
+﻿<Window x:Class="TaskUS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskUS"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="MainWindow" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Column="0" Grid.Row="1">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF8C809B" Offset="1"/>
+                    <GradientStop Color="#FF49148B"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+
+            <ListBox SelectionChanged="ListBox_SelectionChanged" Margin="3,0,3,0">
+                <ListBoxItem  Margin="3,6,3,3" Background="#FF673AB7" BorderBrush="#FF673AB7" HorizontalContentAlignment="Center">
+                    <TextBlock Text="Button" Foreground="White" FontSize="15" FontWeight="Medium" FontFamily="Champagne &amp; Limousines"></TextBlock>
+                </ListBoxItem>
+                <ListBoxItem Margin="3" Background="#FF673AB7" BorderBrush="#FF673AB7" HorizontalContentAlignment="Center" >
+                    <TextBlock Text="Label" FontSize="15" Foreground="White" FontWeight="Medium" FontFamily="Champagne &amp; Limousines"></TextBlock>
+                </ListBoxItem>
+                <ListBoxItem  Margin="3" Background="#FF673AB7" BorderBrush="#FF673AB7" HorizontalContentAlignment="Center" >
+                    <TextBlock Text="ComboBox" FontSize="15" Foreground="White" FontWeight="Medium" FontFamily="Champagne &amp; Limousines"></TextBlock>
+                </ListBoxItem>
+                <ListBoxItem Margin="3" Background="#FF673AB7" BorderBrush="#FF673AB7" HorizontalContentAlignment="Center" >
+                    <TextBlock Text="CheckBox" FontSize="15" Foreground="White" FontWeight="Medium" FontFamily="Champagne &amp; Limousines"></TextBlock>
+                </ListBoxItem>
+            </ListBox>
+        </Grid>
+        <Grid Grid.Column="1" Grid.Row="1">
+            <ScrollViewer ScrollViewer.VerticalScrollBarVisibility="Auto" Style="{DynamicResource ScrollViewerStyle}" >
+                <StackPanel x:Name="sp" AllowDrop="True"  Background="White" PreviewMouseLeftButtonDown="sp_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="sp_PreviewMouseLeftButtonUp" PreviewMouseMove="sp_PreviewMouseMove"
+                DragEnter="sp_DragEnter" Drop="sp_Drop" Orientation="Vertical">
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+        <Grid x:Name="GridTitlebar" Grid.ColumnSpan="2" Background="#FF512DA8" MouseDown="GridTitlebar_MouseDown" >
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="10,0">
+                <Button x:Name="ButtonPower" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="ButtonPower_Click">
+                    <materialDesign:PackIcon Kind="Close"/>
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="30,0">
+                <Button x:Name="ButtonMaximize" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="ButtonMaximize_Click">
+                    <materialDesign:PackIcon Kind="WindowMaximize"/>
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="60,0">
+                <Button x:Name="ButtonMinimize" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="ButtonMinimize_Click">
+                    <materialDesign:PackIcon Kind="WindowMinimize"/>
+                </Button>
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Window>

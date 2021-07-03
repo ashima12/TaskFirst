@@ -1,0 +1,54 @@
+C:\Users\admin\source\repos\TaskUS\bin\Debug\TaskUS.exe.config
+C:\Users\admin\source\repos\TaskUS\bin\Debug\TaskUS.exe
+C:\Users\admin\source\repos\TaskUS\bin\Debug\TaskUS.pdb
+C:\Users\admin\source\repos\TaskUS\obj\Debug\TaskUS.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\TaskUS\obj\Debug\MainWindow.g.cs
+C:\Users\admin\source\repos\TaskUS\obj\Debug\App.g.cs
+C:\Users\admin\source\repos\TaskUS\obj\Debug\TaskUS_MarkupCompile.cache
+C:\Users\admin\source\repos\TaskUS\obj\Debug\TaskUS_MarkupCompile.lref
+C:\Users\admin\source\repos\TaskUS\obj\Debug\MainWindow.baml
+C:\Users\admin\source\repos\TaskUS\obj\Debug\TaskUS.g.resources
+C:\Users\admin\source\repos\TaskUS\obj\Debug\TaskUS.Properties.Resources.resources
+C:\Users\admin\source\repos\TaskUS\obj\Debug\TaskUS.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\TaskUS\obj\Debug\TaskUS.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\TaskUS\obj\Debug\TaskUS.exe
+C:\Users\admin\source\repos\TaskUS\obj\Debug\TaskUS.pdb
+C:\Users\admin\source\repos\TaskUS\obj\Debug\UserControls\btnUserControl.g.cs
+C:\Users\admin\source\repos\TaskUS\obj\Debug\UserControls\btnUserControl.baml
+C:\Users\admin\source\repos\TaskUS\obj\Debug\UserControls\CheckBoxUserControl.g.cs
+C:\Users\admin\source\repos\TaskUS\obj\Debug\UserControls\ComboBoxUserControl.g.cs
+C:\Users\admin\source\repos\TaskUS\obj\Debug\UserControls\LabelUserControl.g.cs
+C:\Users\admin\source\repos\TaskUS\obj\Debug\UserControls\CheckBoxUserControl.baml
+C:\Users\admin\source\repos\TaskUS\obj\Debug\UserControls\ComboBoxUserControl.baml
+C:\Users\admin\source\repos\TaskUS\obj\Debug\UserControls\LabelUserControl.baml
+F:\Office Project\TaskUS\bin\Debug\TaskUS.exe.config
+F:\Office Project\TaskUS\bin\Debug\TaskUS.exe
+F:\Office Project\TaskUS\bin\Debug\TaskUS.pdb
+F:\Office Project\TaskUS\obj\Debug\MainWindow.g.cs
+F:\Office Project\TaskUS\obj\Debug\UserControls\btnUserControl.g.cs
+F:\Office Project\TaskUS\obj\Debug\UserControls\CheckBoxUserControl.g.cs
+F:\Office Project\TaskUS\obj\Debug\UserControls\ComboBoxUserControl.g.cs
+F:\Office Project\TaskUS\obj\Debug\UserControls\LabelUserControl.g.cs
+F:\Office Project\TaskUS\obj\Debug\App.g.cs
+F:\Office Project\TaskUS\obj\Debug\TaskUS_MarkupCompile.cache
+F:\Office Project\TaskUS\obj\Debug\TaskUS_MarkupCompile.lref
+F:\Office Project\TaskUS\obj\Debug\MainWindow.baml
+F:\Office Project\TaskUS\obj\Debug\UserControls\btnUserControl.baml
+F:\Office Project\TaskUS\obj\Debug\UserControls\CheckBoxUserControl.baml
+F:\Office Project\TaskUS\obj\Debug\UserControls\ComboBoxUserControl.baml
+F:\Office Project\TaskUS\obj\Debug\UserControls\LabelUserControl.baml
+F:\Office Project\TaskUS\obj\Debug\TaskUS.g.resources
+F:\Office Project\TaskUS\obj\Debug\TaskUS.Properties.Resources.resources
+F:\Office Project\TaskUS\obj\Debug\TaskUS.csproj.GenerateResource.cache
+F:\Office Project\TaskUS\obj\Debug\TaskUS.csproj.CoreCompileInputs.cache
+F:\Office Project\TaskUS\obj\Debug\TaskUS.exe
+F:\Office Project\TaskUS\obj\Debug\TaskUS.pdb
+F:\Office Project\TaskUS\bin\Debug\MaterialDesignColors.dll
+F:\Office Project\TaskUS\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\Office Project\TaskUS\bin\Debug\MaterialDesignColors.pdb
+F:\Office Project\TaskUS\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\Office Project\TaskUS\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\Office Project\TaskUS\obj\Debug\TaskUS.csproj.CopyComplete
+F:\Office Project\TaskUS\obj\Debug\App.baml
+F:\Office Project\TaskUS\obj\Debug\TaskUS.csproj.AssemblyReference.cache
+F:\Office Project\TaskUS\obj\Debug\Styles\Scrollviewer.baml
